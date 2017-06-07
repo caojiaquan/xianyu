@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'return';  /* project id 310525 */
+    src: url('//at.alicdn.com/t/font_kxv7e3dpgaw6ogvi.eot');
+    src: url('//at.alicdn.com/t/font_kxv7e3dpgaw6ogvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_kxv7e3dpgaw6ogvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_kxv7e3dpgaw6ogvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_kxv7e3dpgaw6ogvi.svg#iconfont') format('svg');
+}
+.return{
+    font-family:"return" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'iconfont0';  /* project id 310525 */
+    src: url('//at.alicdn.com/t/font_bw8dumo9er35wmi.eot');
+    src: url('//at.alicdn.com/t/font_bw8dumo9er35wmi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_bw8dumo9er35wmi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_bw8dumo9er35wmi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_bw8dumo9er35wmi.svg#iconfont') format('svg');
+}
+.iconfont0{
+    font-family:"iconfont0" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*header style*/
+#person{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #FFFFFF;
+}
+.person-header-container{
+    height: 5rem;
+    background: #CCCCCC;
+    line-height: 5rem;
+}
+.person-header-return{
+    float: left;
+    cursor: pointer;
+}
+.person-header-container>div{
+    text-align: center;
+    font-size: 2rem;
+}
+/*info style*/
+.person-info-container>h1{
+    padding-top:3rem ;
+}
+.person-info-container>ul{
+    display: -webkit-box;
+    font-size: 2rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid #CCCCCC;
+}
+.person-info-container li{
+    -webkit-box-flex: 1;
+    text-align: left;
+    cursor: pointer;
+}
+.person-info-container>ul>li:nth-child(2){
+    text-align: right;
+}
+/*portrait style*/
+.portrait-container{
+    /*margin: 60% auto;*/
+    position: absolute;
+    bottom: 2%;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.portrait-select{
+    text-align: center;
+}
+.portraitSet{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.portrait-mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.3;
+}
+.portrait-select>li{
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #000000;
+}
+/*sex style*/
+.sexSet{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sex-mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.3;
+}
+.sex-container{
+    position: absolute;
+    bottom: 2%;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*birth style*/
+.birthSet{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.birth-mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.3;
+}
+.birth-container{
+    position: absolute;
+    bottom: 2%;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

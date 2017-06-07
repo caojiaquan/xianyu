@@ -1,0 +1,131 @@
+
+#nav{
+    background: #cccccc;
+    height: 4rem;
+    width: 100%;
+    position:fixed;
+    /*z-index: 4;*/
+    bottom:0;
+    left: 0;
+}
+#nav-box{
+    display: -webkit-box;
+    width:100%;
+
+}
+#nav-box div{
+    -webkit-box-flex: 1;
+    /*font-size:1rem;*/
+    text-align:center;
+}
+.nav-list{
+    display: block;
+    font-size:1rem;
+
+}
+#nav-add{
+    background: orange;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top:-2rem;
+    line-height:3.5rem; ;
+    transition:all 1s ease;
+}
+#nav-add-enter-active{
+    -webkit-transform:rotate(45deg);
+}
+#nav-add-leave-active{
+    -webkit-transform:rotate(0deg);
+}
+
+
+
+/*//弹出框*/
+#popups{
+    font-size:1.8rem;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background: white;
+    /*opacity: 0.98;*/
+}
+
+.nav-wrapper h3{
+    margin-top:9rem;
+    text-align: left;
+    margin-left:3.33333%;
+}
+#nav-popups-middle{
+    width: 100%;
+    margin-top:5rem;
+    display: -webkit-box;
+}
+#nav-popups-middle .nav-popups-middle-box{
+    -webkit-box-flex: 1;
+    overflow: hidden;
+    text-align: left;
+}
+.nav-popups-middle-box div{
+    width: 80%;
+    margin:0 auto;
+}
+#nav-popups-middle div .nav-middle-sm{
+    font-size:1.3rem;
+    color: #cccccc;
+}
+#nav-popups-bottom{
+    width: 100%;
+    position:absolute;
+    bottom:18rem;
+    display: -webkit-box;
+    transition:all 1s ease;
+}
+
+#nav-popups-bottom .nav-popups-bottom-box{
+    -webkit-box-flex: 1;
+    text-align: center;
+
+}
+.nav-popups-bottom-box div{
+    width: 7rem;
+    height:7rem;
+    display: inline-block;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: orange;
+    text-align: center;
+    line-height: 7rem;
+    font-size:5rem;
+}
+.nav-popups-bottom-box div span{
+    display: block;
+    /*font-size:4rem;*/
+}
+.iconMine{
+    font-size:4rem;
+}
+#nav-add-close{
+    position:absolute;
+    bottom:-2.5rem;
+    left:50%;
+    transition:all 3s ease;
+    -webkit-transform: translateX(-50%) translateY(-5rem) rotate(45deg);
+}
+/*动画*/
+.move-enter-active{
+    -webkit-transform:rotate(45deg);
+}
+.move-leave-active{
+    -webkit-transform:rotate(0deg);
+}
+
+
+
+

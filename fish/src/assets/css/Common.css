@@ -1,0 +1,26 @@
+/*common style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+html,body{
+    width: 100%;
+    font-size: 62.5%;
+}
+.wrapper{
+    margin: 0 5%;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}

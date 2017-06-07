@@ -1,0 +1,30 @@
+
+.dialog-close{
+    float: left;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.dialog-title{
+    text-align: center;
+    font-size: 2rem;
+}
+.dialog{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background: #FFFFFF;
+}
+.dialog-nav>ul{
+    display: -webkit-box;
+    padding: 1rem 0;
+}
+.dialog-nav li{
+    -webkit-box-flex: 1;
+    border-bottom: 2px solid orange;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0.5rem;
+}

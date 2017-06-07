@@ -1,0 +1,46 @@
+.classes_header {
+    width: 100%;
+    height: 50px;
+    background: #f9f9f9;
+    line-height: 40px;
+}
+
+.classes_back {
+    width: 40px;
+    height: 40px;
+    margin-top: 2%;
+}
+
+.classes_header_title {
+    position: absolute;
+    left: 41%;
+    top: 1%;
+    font-size: 18px;
+}
+
+.classes_content {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.classes_moule {
+    width: 100%;
+    height: 140px;
+    border-top: 1px solid #d0cece;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+}
+
+.classes_module_content {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.classes_module_img {
+    width: 75px;
+    height: 75px;
+    margin-top: 15%;
+}
