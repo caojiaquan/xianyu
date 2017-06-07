@@ -31,7 +31,7 @@
           </div>
           <div class="classes_module_content">
             <img class="classes_module_img" src="../assets/img/skill.jpg" alt="">
-            <p>技能服务</p>
+            <p>技能</p>
           </div>
         </li>
         <li class="classes_moule">
