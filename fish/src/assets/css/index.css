@@ -1,239 +1,234 @@
 #body {
-    background: rgba(204, 204, 204, 0.71);
+  background: rgba(204, 204, 204, 0.71);
 }
-
 
 /*头部样式*/
 
 #index_header {
-    height: 50px;
-    width: 100%;
-    background: rgba(255, 208, 0,1);
-    text-align: center;
-    line-height: 45px;
-    position : fixed;
-    z-index:999;
-
+  height: 50px;
+  width: 100%;
+  background: rgba(255, 208, 0, 1);
+  text-align: center;
+  line-height: 45px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
 }
-
 
 /*搜索框样式*/
 
 #search {
-    width: 65%;
-    height: 30px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding-left: 20px;
+  width: 65%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 20px;
 }
-
 
 /*点击进入分类组件图片样式*/
 
 #more_img {
-    width: 30px;
-    height: 20px;
-    display: block;
-    position: absolute;
-    top: 14px;
-    right: 10px;
+  width: 30px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 10px;
 }
-
 
 /*大号轮播图样式*/
 
 .mint-swipe {
-    height: 200px;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    /*margin-top:50px;*/
+  height: 200px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .mint-swipe img {
-    height: 200px;
-    width: 100%;
+  height: 200px;
+  width: 100%;
 }
-
 
 /*小号轮播图样式*/
 
 .smile_swip {
-    height: 50px;
-    margin-top: 7px;
+  height: 50px;
+  margin-top: 7px;
 }
 
 .smile_swip .mint-swipe-item img {
-    height: 50px;
+  height: 50px;
 }
-
 
 /*精选类别样式*/
 
 #some_class {
-    width: 100%;
-    height: 265px;
-    margin-top: 10px;
-    background: #fff;
+  width: 100%;
+  height: 265px;
+  margin-top: 10px;
+  background: #fff;
 }
 
 #some_class .tab {
-    width: 100%;
-    height: 86px;
+  width: 100%;
+  height: 86px;
 }
 
 #some_class .left_tab {
-    width: 50%;
-    height: 85px;
-    float: left;
+  width: 50%;
+  height: 85px;
+  float: left;
 }
 
 #some_class .right_tab {
-    width: 49%;
-    height: 85px;
-    float: right;
-    border-left: 2px solid #ccc;
+  width: 49%;
+  height: 85px;
+  float: right;
+  border-left: 2px solid #ccc;
 }
 
 #select li:nth-child(2) {
-    border-top: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
 .left_tab img {
-    width: 65px;
-    height: 50px;
-    float: right;
-    margin-right: 12px;
-    margin-top: 15px;
+  width: 65px;
+  height: 50px;
+  float: right;
+  margin-right: 12px;
+  margin-top: 15px;
 }
 
 .right_tab img {
-    width: 65px;
-    height: 50px;
-    float: right;
-    margin-right: 12px;
-    margin-top: 15px;
+  width: 65px;
+  height: 50px;
+  float: right;
+  margin-right: 12px;
+  margin-top: 15px;
 }
 
 .character {
-    font-size: 13px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.81);
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 4%;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.81);
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 4%;
 }
 
 .content_classes {
-    width: 70px;
-    font-size: 11px;
-    color: rgba(0, 0, 0, 0.62);
-    position: absolute;
-    margin-top: 33px;
-    margin-left: 2.5%;
+  width: 70px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.62);
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 2.5%;
 }
 
 .all_commodity {
-    width: 100%;
-    height: auto;
-    margin-top: 7px;
+  width: 100%;
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 55px;
 }
 
 .li_content {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .commodity_show {
-    width: 100%;
-    height: 220px;
-    background: #fff;
-    margin-top: 5px;
+  width: 100%;
+  height: 220px;
+  background: #fff;
+  margin-top: 5px;
 }
 
 .commodity_row {
-    padding: 10px 10px;
+  padding: 10px 10px;
 }
 
 .commodity_show .user_row {
-    width: 100%;
-    height: 40px;
-    background: #fff;
+  width: 100%;
+  height: 40px;
+  background: #fff;
 }
 
 .commodity_show .img_show {
-    width: 100%;
-    height: 120px;
-    background: #fff;
+  width: 100%;
+  height: 120px;
+  background: #fff;
 }
 
 .commodity_show .commodity_content {
-    width: 100%;
-    height: 40px;
-    background: #fff;
+  width: 100%;
+  height: 40px;
+  background: #fff;
 }
 
 .user_row .img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
 }
 
 .user {
-    width: 35%;
-    height: 40px;
-    background: #fff;
-    float: left;
-    margin-left: 8px;
+  width: 35%;
+  height: 40px;
+  background: #fff;
+  float: left;
+  margin-left: 8px;
 }
 
 .user_name {
-    font-weight: bold;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: black;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: black;
 }
 
 .user_time {
-    font-size: 13px;
-    color: rgb(112, 105, 105);
+  font-size: 13px;
+  color: rgb(112, 105, 105);
 }
 
 .commodity_money {
-    width: 45%;
-    height: 40px;
-    background: #fff;
-    float: left;
-    margin-left: 5px;
+  width: 45%;
+  height: 40px;
+  background: #fff;
+  float: left;
+  margin-left: 5px;
 }
 
 .money {
-    color: rgb(239, 42, 42);
-    font-size: 21px;
-    font-weight: bold;
-    padding-left: 30px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  color: rgb(239, 42, 42);
+  font-size: 21px;
+  font-weight: bold;
+  padding-left: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .show_img {
-    width: 32%;
-    height: 90px;
-    margin-top: 4%
+  width: 32%;
+  height: 90px;
+  margin-top: 4%
 }
 
 .font_content {
-    width: 100%;
-    height: 40px;
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
-    /*超出两行省略*/
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  /*超出两行省略*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
