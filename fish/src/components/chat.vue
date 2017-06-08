@@ -4,7 +4,7 @@
      <div class="product">
      	<img src="../assets/product.jpg" alt="">
      	<div class="product-info">
-     		<h4><strong>￥100</strong></h4>	
+        <h4><strong>￥100</strong></h4>
      		<p>交易前聊一聊</p>
      	</div>
      </div>
@@ -45,7 +45,7 @@
      		</label>
      	</div>
      </div>
-     
+
   </div>
 </template>
 
